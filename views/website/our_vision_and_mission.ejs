@@ -1,0 +1,84 @@
+<%- include('../include/_header') %>
+    <%- include('../include/_navbar') %>
+
+        <script type="text/javascript">
+            $(function () {
+                $('.nav-link').removeClass('active');
+                var current = location.pathname;
+
+                $('.nav-link').each(function () {
+                    var $this = $(this);
+                    // if the current path is like this link, make it active
+                    if ($this.attr('href') == current) {
+                        $this.addClass('active');
+                    };
+                });
+            });
+        </script>
+
+
+        <section style="color: #06038D">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-sm-12" style="text-align: justify;">
+                        <h4>OUR VISION</h4>
+                        <h4 class="text-center">FROM BRICKS TO BRAND</h4>
+                        <p>OUR VISION SERVES AS THE FRAMEWORK FOR OUR ROADMAPS AND GUIDES EVERY ASPECT OF OUR SOCIAL
+                            ACTIVITIES
+                            BY
+                            DESCRIBING WHAT WE NEED TO ACCOMPLISH IN ORDER TO CONTINUE ACHIEVING SUSTAINABLE, QUALITY
+                            GROWTH.
+                        </p>
+                        <p>THE VISION OF WAY2REAL NIDHI LIMITED IS “PUBLIC PROSPERITY” BY OFFERING FINANCIAL SERVICES TO
+                            ALL
+                            GROUPS OF PEOPLE AND OFFERING EQUAL OPPORTUNITY TO ALL, TO LIVE AN IMPROVED LIFE BY
+                            FINANCIAL
+                            ENABLEMENT AND
+                            EMPOWERMENT. THE MISSION OF THE SOCIETY IS TO CREATE SELF SUFFICIENT SUSTAINABLE ECOSYSTEM
+                            OF
+                            MEMBERS
+                            THROUGH CO-OPERATION.HE SOCIETY IS TO ENABLE FINANCIAL INCLUSION BY PROVIDING AFFORDABLE
+                            FINANCIAL
+                            SERVICES
+                            TO THE UNDER-PRIVILEGED AND SOCIALLY EXCLUDED COMMUNITY, AND INCULCATE THE SAVINGS HABIT
+                            AMONG THE
+                            COMMON
+                            MAN THROUGH INNOVATIVE LOW COST FINANCIAL PRODUCTS AND SERVICES USING CO-OPERATIVE
+                            PRINCIPLES,
+                            SELF-HELP AND
+                            MUTUAL AID.SHWADH</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="back-light" style="color: #06038D;">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-sm-12" style="text-align: justify;">
+                        <h4>OUR MISSION</h4>
+                        <p>In order to bring the common man on the path of prosperity we emphasize on Operational
+                            efficiency,
+                            integrity and always put a strong focus on high quality and cost-effective products &
+                            services.
+                            Constantly
+                            creating an environment of a perfect understanding of the customer our each product or
+                            service is
+                            tailor-made to perfectly suit customer needs. Putting people first is our guiding principle
+                            and we
+                            believe
+                            that this will bring MTS closer to the grassroots, and will make it the preferred choice for
+                            all
+                            financing
+                            requirements amongst customers.
+                            We strive to lead We translate these advanced technologies into value for our customers
+                            through our
+                            professional solutions, services and consulting businesses worldwide. Shape the future of
+                            the
+                            Internet by
+                            creating unprecedented value and opportunity for partners.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <%- include('../include/_footer') %>

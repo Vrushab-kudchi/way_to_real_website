@@ -1,0 +1,16 @@
+{
+  "name": "way_to_real",
+  "version": "1.0.0",
+  "description": "This is Official Website of way to real Bank",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Vrushab Kudchi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}

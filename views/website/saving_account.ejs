@@ -1,0 +1,339 @@
+<%- include('../include/_header') %>
+    <%- include('../include/_navbar') %>
+
+        <script type="text/javascript">
+            $(function () {
+                $('.nav-link').removeClass('active');
+                var current = location.pathname;
+
+                $('.nav-link').each(function () {
+                    var $this = $(this);
+                    // if the current path is like this link, make it active
+                    if ($this.attr('href') == current) {
+                        $this.addClass('active');
+                    };
+                });
+            });
+        </script>
+
+        <section class="banner small">
+            <img src="/Pictures/sliding 3.PNG" alt="Saving account" />
+        </section>
+        <section class="loan-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link" href="/saving_account">Savings Deposits</a>
+                            <a class="nav-link" href="/fixed_account">Fixed Deposits</a>
+                            <a class="nav-link" href="/mis_deposit">MIS Deposits</a>
+                            <a class="nav-link" href="/recurring_deposit">Recurring Deposits</a>
+                            <a class="nav-link" href="/daily_deposit">Daily Deposits</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-9" style="color: #06038D;">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-gl" role="tabpanel"
+                                aria-labelledby="v-pills-gl-tab">
+                                <h5><span
+                                        style="display: inline-block; background-color: orange;color: white;padding: 5px">
+                                        WAY2REAL
+                                        NIDHI LIMITED</span><span
+                                        style="display: inline-block; background-color: green;color: white;padding: 5px">SAVINGS
+                                        DEPOSITS</span></h5>
+                                <div class="content">
+                                    <p style="text-align: justify"><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: #06038D; font-size: 12px"><span
+                                                lang="EN-US">Saving money habit will improve the quality of life and
+                                                will help
+                                                you to feel better
+                                                and to sleep better. One will be happier knowing he/she has some money
+                                                aside for
+                                                unexpected
+                                                expenses and look forward to achieve some of their dreams.</span></span>
+                                    </p><br>
+
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: red; font-size: 12px;"><u><b>Features
+                                                    of WAY2REAL NIDHI LIMITED Saving Account</b></u></span></p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Minimum amount of
+                                            deposits
+                                            for open a saving
+                                            Deposit account is Rs. 500.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;The money can be
+                                            withdrawn
+                                            by using
+                                            withdrawal slip in the concerned branches.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;A minimum amount of
+                                            Rs. 500
+                                            need to be
+                                            maintained else this will attract penalty.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;No loan facility is
+                                            provided
+                                            against saving
+                                            account.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Enable the depositor
+                                            to earn
+                                            high rate of
+                                            Interest @ 6.00% p.a based on daily minimum balance.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: red; font-size: 12px;"><u><b>Additional
+                                                    feature</b></u></span></p>
+                                    <p>
+
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Money Multiplier
+                                            Facility -
+                                            Allow us to take
+                                            care of your idle money by moving it into high interest deposit account
+                                            earning.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Customer Care - Our
+                                            Customer
+                                            Care is always
+                                            available to answer any query or take your instructions.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Nomination Facility
+                                            - You
+                                            may nominate a
+                                            person as beneficiary to your account proceeds.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Liquidity - You may
+                                            liquidate your account
+                                            pre-matured by incurring nominal charges for pre-matured liquidation.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;The maximum balance
+                                            in a
+                                            saving deposit
+                                            account at any given time qualifying for interest shall not exceed one lakh
+                                            rupees
+                                            at any point of
+                                            time and the specific rate of interest.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;The company shall
+                                            not re-pay
+                                            any deposit
+                                            with in a period of three months from the date of its acceptance.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: red; font-size: 12px;"><u><b>Nomination:</b></u></span>
+                                    </p>
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                            &nbsp;&nbsp;Nomination facility
+                                            available for deposits.</span></p>
+
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                            &nbsp;&nbsp; There
+                                            can be only one
+                                            Nominee for a deposit account whether held singly or jointly.</span></p>
+
+
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                            &nbsp;&nbsp;A
+                                            person legally
+                                            empowered to operate a minor's account can file a nomination on behalf of
+                                            the
+                                            minor.</span></p>
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                            &nbsp;&nbsp;
+                                            Applicants can make
+                                            nomination by filling up the prescribed form.</span></p>
+
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                            &nbsp;&nbsp;The
+                                            nomination details
+                                            can be changed during the subsistence of the account relationship by filling
+                                            up the
+                                            Form
+                                            prescribed.</span></p>
+
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                            &nbsp;&nbsp; For
+                                            more details
+                                            approach your branch.</span></p>
+                                    <br>
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: red; font-size: 12px;"><u><b>Documentation
+                                                    Require for account opening.</b></u></span></p>
+
+                                    <div class="table-responsive">
+                                        <table class="table table-striped">
+                                            <thead class="table-primary">
+                                                <tr>
+                                                    <th>Identity Proof :</th>
+                                                    <th>Address Proof :</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Passport</td>
+                                                    <td>Passport</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PAN card</td>
+                                                    <td>Telephone bill</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Voter ID card</td>
+                                                    <td>Electricity bill</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Driving license</td>
+                                                    <td>Bank Statement with Cheque</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Government ID card</td>
+                                                    <td>Certificate/ ID card issued by Post office</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Photo ration card</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Senior citizen ID card</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PROSSESING FEE</td>
+                                                    <td>GENERAL -200/-</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div>
+                                        <p><b><u><span
+                                                        style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: red; font-size: 12px;">Note:</span></u></b>
+                                        </p>
+                                        <p><span
+                                                style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                    lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                                &nbsp;&nbsp;Please produce the
+                                                original document(s) for verification & a photocopy of each
+                                                document.</span></p>
+                                        <p><span
+                                                style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                    lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                                &nbsp;&nbsp;Mandatory to provide
+                                                Permanent address and telephone number.</span></p>
+                                        <p><span
+                                                style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                    lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                                &nbsp;&nbsp;Please avail of the
+                                                nomination facility.</span></p>
+                                        <p><span
+                                                style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                    lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                                &nbsp;&nbsp;Mandatory to complete
+                                                the KYC Norms.</span></p>
+                                        <p><span
+                                                style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                    lang="EN-US">&nbsp;</span></span><span lang="EN-US"><b>➢</b>
+                                                &nbsp;&nbsp;terms & condition apply
+                                                and all deposit plan only for members/shareholders.</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <%- include('../include/_footer') %>

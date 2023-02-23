@@ -1,0 +1,188 @@
+<%- include('../include/_header') %>
+    <%- include('../include/_navbar') %>
+
+        <script type="text/javascript">
+            $(function () {
+                $('.nav-link').removeClass('active');
+                var current = location.pathname;
+
+                $('.nav-link').each(function () {
+                    var $this = $(this);
+                    // if the current path is like this link, make it active
+                    if ($this.attr('href') == current) {
+                        $this.addClass('active');
+                    };
+                });
+            });
+        </script>
+
+
+        <section class="banner small">
+            <img src="Pictures/sliding 3.PNG" alt="Mis deposit" />
+        </section>
+        <section class="loan-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link" href="/saving_account">Savings Deposits</a>
+                            <a class="nav-link" href="/fixed_account">Fixed Deposits</a>
+                            <a class="nav-link" href="/mis_deposit">MIS Deposits</a>
+                            <a class="nav-link" href="/recurring_deposit">Recurring Deposits</a>
+                            <a class="nav-link" href="/daily_deposit">Daily Deposits</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-gl" role="tabpanel"
+                                aria-labelledby="v-pills-gl-tab">
+                                <h5><span
+                                        style="display: inline-block; background-color: orange;color: white;padding: 5px">
+                                        WAY2REAL NIDHI LIMITED </span><span
+                                        style="display: inline-block; background-color: green;color: white;padding: 5px">MIS
+                                        DEPOSITS</span></h5>
+                                <div class="content" style="color: #06038D">
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Attractive & Assured
+                                            Returns.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Impeccable services.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;A wide range of
+                                            deposits
+                                            products to choose.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Prompt Doorstep
+                                            Assistance
+                                            through our well experienced staff.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Quick Loan against
+                                            Deposit
+                                            receipt.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <p><span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: red; font-size: 12px;"><u><b>Nomination:</b></u></span>
+                                    </p>
+                                    <p>
+                                        <span
+                                            style="line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(102,102,102); font-size: 12px"><span
+                                                lang="EN-US">&nbsp;</span></span>
+                                        <span lang="EN-US">
+                                            <b><span style="color: green;">✓</span></b> &nbsp;&nbsp;Nomination facility
+                                            available for deposits. There can be only one Nominee for a deposit account
+                                            whether
+                                            held singly or jointly. Applicants can make nomination by filling up the
+                                            prescribed
+                                            form. The nomination details can be changed during the subsistence of the
+                                            account
+                                            relationship by filling up the prescribed form.
+                                            <o:p></o:p>
+                                        </span>
+                                    </p>
+                                    <hr>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped">
+                                            <thead class="table-primary">
+                                                <tr>
+                                                    <th>SR.NO.</th>
+                                                    <th>Period</th>
+                                                    <th>Amount</th>
+                                                    <th>Yearly Return</th>
+                                                    <th>Monthly Return</th>
+                                                    <th>ROI – Yearly</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>12 Month</td>
+                                                    <td>100000</td>
+                                                    <td>7500</td>
+                                                    <td>625</td>
+                                                    <td>7.50%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>24 Month</td>
+                                                    <td>100000</td>
+                                                    <td>8000</td>
+                                                    <td>667</td>
+                                                    <td>8.00%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>36 Month</td>
+                                                    <td>100000</td>
+                                                    <td>8500</td>
+                                                    <td>708</td>
+                                                    <td>8.50%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>48 Month</td>
+                                                    <td>100000</td>
+                                                    <td>9000</td>
+                                                    <td>750</td>
+                                                    <td>9.00%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>60 Month</td>
+                                                    <td>100000</td>
+                                                    <td>10000</td>
+                                                    <td>833</td>
+                                                    <td>10.00% + 0.5% Bonus</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div style="text-align: left;">
+                                    <h6><b style="color: red;">*Terms and conditions only</b></h6>
+                                    <h6><b style="color: red;">****Only For Members Circulations</b></h6>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <%- include('../include/_footer') %>
