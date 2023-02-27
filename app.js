@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 })
 
 //setting Up Server
-const port = 3000;
+const port = 80;
 
 app.listen(port, function (req, res) {
     console.log("http://localhost:" + port);
